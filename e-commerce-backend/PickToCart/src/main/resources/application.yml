@@ -1,0 +1,19 @@
+server:
+  port: 9090
+spring:
+  datasource:
+    name: pick-to-cart-3
+    url: jdbc:mysql://localhost:3306/pick-to-cart-3
+    username: root
+    password: Satyam@1234
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+razorpay:
+  api:
+    key: rzp_test_EyTvv01VQmNRc1
+    secret: qlb3YA2iUN1VOq5S3XIFblEb
+#api_key: rzp_test_EyTvv01VQmNRc1
+#api_secret: qlb3YA2iUN1VOq5S3XIFblEb

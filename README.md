@@ -43,3 +43,27 @@ This project is a full-stack responsive e-commerce web application developed usi
 2. Install dependencies:
    ```bash
    npm install
+### Backend
+1. Navigate to the backend directory.
+2. Build the project using Maven:
+   ```bash
+   mvn clean install
+3. Run the Spring Boot application:
+   ```bash
+   mvn spring-boot:run
+### How to Use
+1. Open the application in your browser.
+2. Register a new user account or log in with existing credentials.
+3. Browse available products and add them to the cart.
+4. Proceed to checkout and complete payment using Razorpay.
+5. Receive a confirmation message upon successful purchase.
+
+### Future Enhancements
+1. Implement user reviews and ratings for products.
+2. Add admin panel for inventory and order management.
+3. Integrate social media login for easier authentication.
+
+### Author
+   Developed by Sundram Kumar.
+   Project duration: January 2024 – April 2024.
+
